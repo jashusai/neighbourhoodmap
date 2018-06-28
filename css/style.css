@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: black;
+    height: 1.5cm;
+    font-size: 5vw;
+    margin: 0px, 0px, 0px, 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+
+#menubar {
+    background-color: white;
+    float: right;
+    width:25%;
+    height: 100%;
+}
+
+#jashumap {
+    width:75%;height:600px;float: left;
+}
+.list-group-item{
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    #jashumap, #menubar ,header {
+      width: 100%; 
+    }
+  }
+  @media screen and (max-width: 466px) {
+    #jashumap, #menubar ,header {
+      width: 100%; 
+    }
+  }
