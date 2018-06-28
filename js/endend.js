@@ -1,10 +1,10 @@
 /* This variable using for store the location name and city name
 and location latitude and longitude*/
-var locs = [{collegeid: 'BEC college',city: 'Bapatla',lat: 15.8905642,lng: 80.4396485},
-              {collegeid: 'RVRJC college',city: 'Guntur',lat: 16.2556495,lng: 80.3217099},
-              {collegeid: 'GITAM college',city: 'Vizag',lat: 17.7814939,lng: 83.3750193},
-              {collegeid: 'VIT college',city: 'Bhimavaram ',lat: 16.5659704,lng: 81.5203238},
-              {collegeid: 'VRSE college',city: 'Vijayawada ',lat: 16.4837461,lng: 80.6888283}
+var locs = [{collegeid: 'Bapatla Engineering College',city: 'Bapatla',lat: 15.8905642,lng: 80.4396485},
+              {collegeid: 'RVR&JC college',city: 'Guntur',lat: 16.2556495,lng: 80.3217099},
+              {collegeid: 'Gayatri Vidya Parishad College of Engineering',city: 'Vizag',lat: 17.8205239,lng: 83.3401541},
+              {collegeid: 'Vishnu Institute of Technology ',city: 'Bhimavaram ',lat: 16.5659704,lng: 81.5203238},
+              {collegeid: 'Godavari Institute of Engineering and Technology',city: 'Rajahmundry ',lat: 17.0599796,lng: 81.8661287}
              ];
 /* Declaring the global variables */
 var map;
@@ -140,4 +140,3 @@ var extrafunc = function() {
     initiativeFunction();
     ko.applyBindings(SeeInfoWindow);
 };
-
